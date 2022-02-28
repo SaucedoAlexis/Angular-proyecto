@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+.home {
+    background-image:url(https://i.ibb.co/2tQhVdp/5568-madera.jpg
+    );
+    
+}
+.bg{
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(8px);
+}
+.bg-text{
+color: #f1f1f1;
+background-color: #949494;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+font-family: "Rubik Mono One";}
+
+.section_banner{
+    color: #000;
+    background-color: #f1f1f1;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin:auto;
+}
+
+/* linea porcentaje*/
+
+.barra90{
+    background-color: white;
+    padding: 1rem;   
+    background:linear-gradient(
+        to right, 
+        rgb(4, 214, 14) 90%,
+        rgb(255, 255, 255)10%);
+    border:2px solid black;        
+} 
+
+.barra75{
+    background-color: white;
+    padding: 1rem;   
+    background:linear-gradient(
+        to right, 
+        rgb(4, 214, 14) 75%,
+        rgb(255, 255, 255)10%);
+    border:2px solid black;        
+} 
+
+.barra50{
+    background-color: white;
+    padding: 1rem;   
+    background:linear-gradient(
+        to right, 
+        rgb(4, 214, 14) 50%,
+        rgb(255, 255, 255)10%);
+    border:2px solid black;        
+} 
+
+.barra60{
+    background-color: white;
+    padding: 1rem;   
+    background:linear-gradient(
+        to right, 
+        rgb(4, 214, 14) 60%,
+        rgb(255, 255, 255)10%);
+    border:2px solid black;        
+} 
+
+.icono{
+    background-color: #ffffff;
+    font-size: 50px;
+    border-style:ridge;
+    position:relative;
+    bottom:5rem;
+    
+}
+
+.icono2{
+    background-color: #ffffff;
+    font-size: 50px;
+    border-style:ridge;
+    
+}
+
