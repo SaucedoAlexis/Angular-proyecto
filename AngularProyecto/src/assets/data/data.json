@@ -1,11 +1,10 @@
 {
     "nombre": "Alexis Saucedo",
     "titulo": "Full Stack Developer Jr.",
-    "imagenEncabezado": "https://i.ibb.co/2tQhVdp/5568-madera.jpg",
     "textoEncabezado":"Hola, te saluda un programador",
     "sobreMi": "Soy un estudiante de programación en constante capacitación, me encuentro realizando una tecnicatura en programación y, paralelamente, la ingeniería en informática.",
     "miFoto": "https://i.ibb.co/n35mV9x/Mi-foto.jpg",
-    "Experiencia":[
+    "experiencia":[
         {
             "empresa":"Accenture",
             "imagenEmpresa": "https://i.ibb.co/nrMZXNK/Accenture.png",
@@ -22,7 +21,8 @@
             "modoDeTrabajo": "Part Time",
             "comienzo": "Oct 2016",
             "finalizo": "actualidad",
-            "direccion": "HomeOffice"
+            "direccion": "HomeOffice",
+            "colorFondo":"background-color:black"
         }
     ],
     "educacion":[
@@ -32,7 +32,8 @@
             "nombre":"Universidad Nacional Guillermo Brown",
             "comienzo": "Abril 2015",
             "finalizo": "Diciembre 2019",
-            "anioCursando":""
+            "anioCursando":"",
+            "colorfondo":""
         },
         {
             "logo":"https://www.unaj.edu.ar/wp-content/uploads/2016/06/logo-unaj-2016-01.jpg",
@@ -40,7 +41,8 @@
             "nombre":"Universidad Nacional Arturo Jauretche",
             "comienzo": "Abril 2018",
             "finalizo": "actualidad",
-            "anioCursando":"3ero"
+            "anioCursando":"Cursando 3er año",
+            "colorfondo":""
         },
         {
             "logo":"https://res.cloudinary.com/hdsqazxtw/image/upload/v1579032128/coder-logo-white_t41xzb.png",
@@ -48,8 +50,11 @@
             "nombre":"CoderHouse",
             "comienzo": "Enero 2015",
             "finalizo": "Enero 2016",
-            "anioCursando":""
+            "anioCursando":"",
+            "colorfondo":"background-color:black"
+
         }
+        
     ],
     "hardAndSoftSkills":[
         {

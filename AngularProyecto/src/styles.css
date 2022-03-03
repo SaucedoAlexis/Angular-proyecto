@@ -47,12 +47,12 @@ font-family: "Rubik Mono One";}
     border:2px solid black;        
 } 
 
-.barra75{
+.barra70{
     background-color: white;
     padding: 1rem;   
     background:linear-gradient(
         to right, 
-        rgb(4, 214, 14) 75%,
+        rgb(4, 214, 14) 70%,
         rgb(255, 255, 255)10%);
     border:2px solid black;        
 } 

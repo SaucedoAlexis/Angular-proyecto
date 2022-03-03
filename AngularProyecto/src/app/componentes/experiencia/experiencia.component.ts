@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
 @Component({
   selector: 'app-experiencia',
   templateUrl: './experiencia.component.html',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienciaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private datos:PortfolioService) { }
+    experienciaList:any;
 
   ngOnInit(): void {
-  }
+    this.datos.obtenerDatos().subscribe(data=>{
+    this.experienciaList=data.experiencia;
+  })}
+  
+  
 
 }

@@ -5,49 +5,18 @@
   
 
   
-    <article class="container mt-3">
+    <article class="container mt-3" *ngFor="let skills of hardAndSoftSkillsList">
       <div class="row align-items-center justify-content-center">
         <div class="col-xl-4">
-          <h3 class="">Dominio de tecnologías</h3>
+          <h3 class="">{{skills.nombre}}</h3>
         </div>
         <div class="col">
-          <article class="barra90"></article>
+          <article [class]="skills.porcentaje"></article>
         </div>
       </div>
     </article>
 
-    <article class="container mt-3">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-xl-4">
-          <h3 class="">Resolución de problemas</h3>
-        </div>
-        <div class="col">
-          <article class="barra75"></article>
-        </div>
-      </div>
-    </article>
-
-    <article class="container mt-3">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-xl-4">
-          <h3 class="">Diseño Visual</h3>
-        </div>
-        <div class="col">
-          <article class="barra50"></article>
-        </div>
-      </div>
-    </article>
-
-    <article class="container mt-2 mb-4">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-xl-4">
-          <h3 class="">Trabajo en equipo</h3>
-        </div>
-        <div class="col">
-          <article class="barra60"></article>
-        </div>
-      </div>
-    </article>
+    
     
   </section>
 

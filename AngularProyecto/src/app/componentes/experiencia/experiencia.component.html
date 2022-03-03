@@ -7,35 +7,22 @@
 
 
 
+
     <!--Accenture-->
-    <article class="container border mt-4 border-2">
+    <article class="container border mt-4 border-2" *ngFor="let exp of experienciaList">
       <div class="row align-items-center justify-content-center">
-        <div class="col-4"><img src="https://i.ibb.co/nrMZXNK/Accenture.png" class='img-fluid' alt="Accenture Logo" width="200"
+        <div class="col-4"><img [src]="exp.imagenEmpresa" [style]="exp.colorFondo" class='img-fluid' alt="Accenture Logo" width="200"
             height="auto"></div>
         <div class="col-xl-6">
-          <h2>Frontend Developer</h2>
-          <h3>Accenture - Part Time</h3>
-          <h4>Oct 2018 - actualidad.</h4>
-          <h4>24 de Noviembre 2120, CABA</h4>
+          <h2>{{exp.empresa}}</h2>
+          <h3>{{exp.empresa}} - {{exp.modoDeTrabajo}}</h3>
+          <h4>{{exp.comienzo}} - {{exp.finalizo}}</h4>
+          <h4>{{exp.direccion}}</h4>
         </div>
       </div>
     </article>
 
-    <!--Coder House-->
-    <article class="container border border-2 mt-2">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-4 mt-3 mb-3"><img
-            src="https://res.cloudinary.com/hdsqazxtw/image/upload/v1579032128/coder-logo-white_t41xzb.png"
-            alt="Coder House Logo" style="background-color: black;" class='img-fluid' width="200" height="auto"></div>
-        <div class="col-xl-6 ">
-          <h2 class="mt-1">Profesor de Desarrollo Web</h2>
-          <h3>CoderHouse - Part Time</h3>
-          <h4>Oct 2016 - actualidad.</h4>
-          <h4>HomeOffice</h4>
-        </div>
-      </div>
-      
-    </article>
-    
   </section>
+
+    
   <span class="icono2"><a href="#" class="color-iconos"><i class="bi bi-pencil m-3"></i><i class="bi bi-x-square m-3"></i></a></span>
