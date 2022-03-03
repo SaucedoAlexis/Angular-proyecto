@@ -1,0 +1,92 @@
+{
+    "nombre": "Alexis Saucedo",
+    "titulo": "Full Stack Developer Jr.",
+    "imagenEncabezado": "https://i.ibb.co/2tQhVdp/5568-madera.jpg",
+    "textoEncabezado":"Hola, te saluda un programador",
+    "sobreMi": "Soy un estudiante de programación en constante capacitación, me encuentro realizando una tecnicatura en programación y, paralelamente, la ingeniería en informática.",
+    "miFoto": "https://i.ibb.co/n35mV9x/Mi-foto.jpg",
+    "Experiencia":[
+        {
+            "empresa":"Accenture",
+            "imagenEmpresa": "https://i.ibb.co/nrMZXNK/Accenture.png",
+            "titulo": "Frontend Developer",
+            "modoDeTrabajo": "Part Time",
+            "comienzo": "Oct 2018",
+            "finalizo": "actualidad",
+            "direccion": "24 de Noviembre 2120, CABA"
+        },
+        {
+            "empresa":"CoderHouse",
+            "imagenEmpresa": "https://res.cloudinary.com/hdsqazxtw/image/upload/v1579032128/coder-logo-white_t41xzb.png",
+            "titulo": "Profesor de Desarrollo Web",
+            "modoDeTrabajo": "Part Time",
+            "comienzo": "Oct 2016",
+            "finalizo": "actualidad",
+            "direccion": "HomeOffice"
+        }
+    ],
+    "educacion":[
+        {
+            "logo":"https://www.unab.edu.ar/img/logo-unab-2.png",
+            "titulo":"Tecnico en programación",
+            "nombre":"Universidad Nacional Guillermo Brown",
+            "comienzo": "Abril 2015",
+            "finalizo": "Diciembre 2019",
+            "anioCursando":""
+        },
+        {
+            "logo":"https://www.unaj.edu.ar/wp-content/uploads/2016/06/logo-unaj-2016-01.jpg",
+            "titulo":"Ingeniero Informático",
+            "nombre":"Universidad Nacional Arturo Jauretche",
+            "comienzo": "Abril 2018",
+            "finalizo": "actualidad",
+            "anioCursando":"3ero"
+        },
+        {
+            "logo":"https://res.cloudinary.com/hdsqazxtw/image/upload/v1579032128/coder-logo-white_t41xzb.png",
+            "titulo":"Carrera de desarrollo Full Stack",
+            "nombre":"CoderHouse",
+            "comienzo": "Enero 2015",
+            "finalizo": "Enero 2016",
+            "anioCursando":""
+        }
+    ],
+    "hardAndSoftSkills":[
+        {
+            "nombre":"Dominio de Tecnologías",
+            "porcentaje":"barra90"
+        },
+        {
+            "nombre":"Resolución de Problemas",
+            "porcentaje":"barra70"
+        },
+        {
+            "nombre":"Diseño visual",
+            "porcentaje":"barra50"
+        },
+        {
+            "nombre":"Trabajo En Equipo",
+            "porcentaje":"barra60"
+        }
+        
+
+    ],
+    "proyectos":[
+        {
+            "nombre":"Página instructiva sobre HTML, CSS y Flex",
+            "imagen":"https://i.ibb.co/Pxp1HkP/P-gina-instructivo.png",
+            "url":"https://codepen.io/alexis-saucedo/pen/NWaLMRL"
+        },
+        {
+            "nombre":"Página Tributo Tengen Toppa Guren Lagan",
+            "imagen":"https://i.ibb.co/Bt0cd9Z/P-gina-tributo.png",
+            "url":"https://codepen.io/alexis-saucedo/pen/dyVKqGZ"
+        },
+        {
+            "nombre":"Encuesta educativa",
+            "imagen":"https://i.ibb.co/BZQ4L2W/Encuesta-educativa.png",
+            "url":"https://codepen.io/alexis-saucedo/pen/MWEBZGw"
+        }
+    ]
+
+}
